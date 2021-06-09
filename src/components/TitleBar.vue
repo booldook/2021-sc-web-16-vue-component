@@ -3,13 +3,21 @@
 		<h2 class="title">{{ title }}</h2>
 		<hr>
 		<h3 class="desc">{{ desc }}</h3>
+		<p class="date text-end">{{ date }}</p>
 	</section>
 </template>
 
 <script>
+import moment from 'moment'
+
 export default {
 	name: 'TitleBar',
 	props: ['title', 'desc'],
+	data() {
+		return {
+			date: moment().format('YYYY-MM-DD')
+		}
+	}
 }
 </script>
 
