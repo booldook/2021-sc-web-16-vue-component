@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<Header />
+		<Header @@selected="onSelected" />
 		<div class="container">
 			<TitleBar :title="title" :desc="desc" />
 			<SearchBar />
@@ -32,10 +32,19 @@ export default {
 			const { data } = await axios.get('/json/product.json')
 			this.product = data
 			this.data = data
-			this.desc = `상품이 ${this.data.length}개 준비되었습니다.`
+			this.changeDesc()
 		}
 		catch(err) {
 			console.log(err)
+		}
+	},
+	methods: {
+		onSelected(cate) {
+			this.data = (cate === '') ? this.product : this.product.filter( v => v.cate === cate )
+			this.changeDesc()
+		},
+		changeDesc() {
+			this.desc = `상품이 ${this.data.length}개 준비되었습니다.`
 		}
 	}
 }
