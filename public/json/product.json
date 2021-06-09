@@ -1,10 +1,10 @@
 [
-	{ "id": 1, "title": "놀라운 상품1", "src": "best1.jpg", "price": "15.00" },
-	{ "id": 2, "title": "놀라운 상품2", "src": "best2.jpg", "price": "125.00" },
-	{ "id": 3, "title": "놀라운 상품3", "src": "best3.jpg", "price": "215.00" },
-	{ "id": 4, "title": "좋은 상품1", "src": "best4.jpg", "price": "99.99" },
-	{ "id": 5, "title": "좋은 상품2", "src": "best5.jpg", "price": "45.00" },
-	{ "id": 6, "title": "좋은 상품3", "src": "best6.jpg", "price": "29.99" },
-	{ "id": 7, "title": "질 좋은 상품1", "src": "best7.jpg", "price": "35.00" },
-	{ "id": 8, "title": "질 좋은 상품2", "src": "best8.jpg", "price": "350.00" }
+	{ "id": 1, "cate": "01", "title": "놀라운 상품1", "src": "best01.jpg", "price": "15.00" },
+	{ "id": 2, "cate": "01", "title": "놀라운 상품2", "src": "best02.jpg", "price": "125.00" },
+	{ "id": 3, "cate": "01", "title": "놀라운 상품3", "src": "best03.jpg", "price": "215.00" },
+	{ "id": 4, "cate": "02", "title": "좋은 상품1", "src": "best04.jpg", "price": "99.99" },
+	{ "id": 5, "cate": "02", "title": "좋은 상품2", "src": "best05.jpg", "price": "45.00" },
+	{ "id": 6, "cate": "02", "title": "좋은 상품3", "src": "best06.jpg", "price": "29.99" },
+	{ "id": 7, "cate": "03", "title": "질 좋은 상품1", "src": "best07.jpg", "price": "35.00" },
+	{ "id": 8, "cate": "03", "title": "질 좋은 상품2", "src": "best08.jpg", "price": "350.00" }
 ]
