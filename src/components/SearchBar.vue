@@ -1,6 +1,7 @@
 <template>
 	<div class="wrapper">
-		<input v-model="query" type="text" class="form-control" autofocus value="검색할 상품을 입력하세요">
+		<input v-model="query" type="text" class="form-control" autofocus 
+		placeholder="검색할 상품을 입력하세요">
 		<i v-show="query.length" @click="onRemove" class="fa fa-times"></i>
 	</div>
 </template>
